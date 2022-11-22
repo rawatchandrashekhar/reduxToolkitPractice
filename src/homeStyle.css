@@ -1,0 +1,110 @@
+input[type=text]{
+    width:100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    overflow: hidden;
+}
+
+input[type=text]:focus{
+   border-color: dodgerblue;
+   box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.inputWithIcon input[type=text]{
+    padding-left: 40px;
+    /* padding-left: 45px; */
+}
+
+.inputWithIcon{
+    position: relative;   
+    /* background-color: red; */
+    margin: 10px;
+}
+
+.inputWithIcon .rupeesIcon{
+    /* background-color: #aaa; */
+    position: absolute;
+    left: 0;
+    top: 9px;
+    bottom: 9px;
+    padding: 5px 8px;
+    /* color: #fff;     */
+    color: #aaa;
+    transition: .3s;
+    /* width:100px;
+    height: 100px; */
+    /* overflow: hidden; */
+}
+
+.inputWithIcon input[type=text]:focus + .rupeesIcon{
+    color: dodgerblue;
+}
+
+/* .inputWithIcon input[type=text]:focus + .rupeesIcon{
+    color: #fff;
+    background-color: dodgerblue;
+} */
+
+/* .inputIconBg .rupeesIcon{
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 8px;
+    border-radius: 4px 0 0 4px;
+    width:100px;
+    height: 100px;
+    overflow: hidden;
+} */
+
+.form_control{
+  border: 2px solid #000;
+}
+
+.error_control{
+border: 2px solid red;
+}
+
+.bgimg-1{
+    background-image: url('https://www.w3schools.com/howto/img_parallax.jpg') ;
+    min-height: 100vh;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-2{
+    background-image: url('https://www.w3schools.com/howto/img_parallax2.jpg') ;
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url('https://www.w3schools.com/howto/img_parallax3.jpg');
+    min-height: 400px;
+}
